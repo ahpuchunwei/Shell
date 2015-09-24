@@ -1,5 +1,14 @@
-#О╪│/bin/sh
-#Е╞╧Е▐≤И┤▐Х╣▀Е─╪
-himi="Hello,Shell !"
-echo "A is"
+#!/bin/sh
+#╤т╠Да©╦Ёж╣
+himi="Hello,Shell!" #╣х╨еа╫╠ъ╬Ы╡╩дэсп©у╦Я╣д╢Фтз
+echo "A is:"
 echo $himi
+_int=19
+_tot=$_int+89
+echo $_tot #shellд╛хойгвж╥Ш╢╝
+_tot2=$[$_int+89] #жпю╗╨едз╣д╠М╢Ой╫вВн╙йЩя╖тккЦох╪фкЦ╫А╧ШтыйДЁЖ,C shellж╩ж╖ЁжуШйЩ╣дтккЦ
+echo $_tot2
+#shellЁё╪Ш╣дкЦйУтккЦ╥Шсп+ - / * % << >>
+var='expr $_int + 10'
+echo $var
+
