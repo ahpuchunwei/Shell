@@ -14,8 +14,8 @@ echo $var
 ls #列出当前目录和文件
 echo "create puchunwei directory"
 mkdir puchunwei #创建目录
-sudo ls #临时获得管理员权限显示当前文件夹中的目录和文件
 echo "list all directory"
+sudo ls #临时获得管理员权限显示当前文件夹中的目录和文件
 rmdir puchunwei #删除目录
 
 
