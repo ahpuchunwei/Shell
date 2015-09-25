@@ -11,4 +11,10 @@ echo $_tot2
 #shell³£¼ûµÄËãÊõÔËËã·ûÓĞ+ - / * % << >>
 var='expr $_int + 10'
 echo $var
+ls #ÁĞ³öµ±Ç°Ä¿Â¼ºÍÎÄ¼ş
+echo "create puchunwei directory"
+mkdir puchunwei #´´½¨Ä¿¼
+sudo ls #ÁÙÊ±»ñµÃ¹ÜÀíÔ±È¨ÏŞÏÔÊ¾µ±Ç°ÎÄ¼ş¼ĞÖĞµÄÄ¿Â¼ºÍÎÄ¼ş
+rmdir puchunwei #É¾³ıÄ¿Â¼
+
 
